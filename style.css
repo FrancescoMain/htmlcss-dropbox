@@ -28,3 +28,27 @@ body {
     height: 500px;
     margin-top: 80px;
 }
+
+.tophead__container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.tophead__container__iteam {
+    margin: 20px;
+    
+}
+
+.item--margin {
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;
+}
+
+.blubutton {
+    margin: 0 20px;
+    background-color: #0061ff;
+    color: white;
+    padding: 6px 16px;
+}
