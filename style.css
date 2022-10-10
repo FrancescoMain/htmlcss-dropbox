@@ -1,0 +1,30 @@
+/* Generali  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* head  */
+
+.tophead {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    background-color: #b4d0e7;
+    /* debug */
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+}
