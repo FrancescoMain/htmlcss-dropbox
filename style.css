@@ -216,3 +216,59 @@ div.info i {
 .blue {
     color: #0061ff;
 }
+
+.ufficiovendite {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.ufficiovendite__cont {
+    width: 1000px;
+    border: 2px lightgrey solid;
+    
+
+}
+
+.team {
+    margin-top: 6px;
+    height: 40px;
+    border-bottom: 2px lightgrey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+
+.contact__article{
+    width: 70%;
+
+}
+
+
+.partner {
+    display: flex;
+    justify-content: center;
+}
+
+.partner__cont {
+    width: 1000px;
+    display: flex;
+
+}
+
+.imgcont {
+    max-height:  500px;
+}
+
+.margin {
+    margin-top: 30px;
+    align-self:initial;
+}
