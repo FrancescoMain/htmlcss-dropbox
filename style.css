@@ -153,7 +153,7 @@ p.margintop {
 .abbonamenti__s1__plans {
     border: 2px lightgrey solid;
     width: 300px;
-    height: 800px;
+    height: 900px;
     
 }
 
@@ -192,6 +192,11 @@ div.info i {
 .blubutton--margin {
     margin-top: 60px;
     margin-bottom: 20px;
+}
+
+.acquista {
+    color: #0000ee;
+    text-decoration: underline;
 }
 
 .spacer {
@@ -456,6 +461,10 @@ div.info i {
 
 #imgcent {
     width: 350px;
+}
+
+.cent--margin {
+    margin-top: 50px;
 }
 
 .linea {
