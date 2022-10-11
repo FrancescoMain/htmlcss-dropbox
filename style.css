@@ -334,6 +334,7 @@ div.info i {
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    margin-bottom: 120PX;
 }
 
 .scopricont {
@@ -347,4 +348,99 @@ div.info i {
 
 .scopricont div {
     margin: 80px 0;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides__section {
+    width: calc(100% / 3);
+}
+.slides__section__row {
+    display: flex;
+}
+
+#designit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #a2d39b;
+    border: 20px #d1e9cd solid;
+}
+
+.slides__section__row div img {
+    max-width: 200px;
+    fill: white;
+}
+
+#asu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #61082b;
+
+}
+
+#florida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #0093ce;
+
+}
+
+#tops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #ff1c1c;
+
+}
+
+#bucycle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #d5001f;
+
+}
+
+#hearst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #b4d0e7;
+
+}
+
+#lonely {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #0d2481;
+}
+
+#clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: #ffd830;  
+
 }
