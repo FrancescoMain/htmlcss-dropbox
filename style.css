@@ -280,6 +280,7 @@ div.info i {
 .greybutton {
     border: #a1a1a1 2px solid;
     padding: 10px 18px;
+    background-color: white;
 }
 
 .trovaunpartner {
@@ -466,4 +467,32 @@ div.info i {
 
 .slides__section.cent div {
     margin: 40px 0;
+}
+
+.prova {
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.prova__cont {
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.greybutton--prova {
+    border: white;
+    padding: 15px 60px;
+    position: relative;
+    right: 75px;
+    top: 20px;
+}
+
+.prova__cont h2 {
+    font-size: 45px;
+    max-width: 50%;
+    color: #61082b;
 }
