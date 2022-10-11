@@ -496,3 +496,27 @@ div.info i {
     max-width: 50%;
     color: #61082b;
 }
+
+.domande {
+    display: flex;
+    justify-content: center;
+}
+
+.domande__cont {
+    width: 1000px;
+}
+
+.domande__cont h2 {
+    font-size: 40px;
+    margin-top:240px ;
+    padding-bottom: 80px;
+    border-bottom: 2px lightgray solid;
+}
+
+.domande__cont__sect {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px lightgray solid;
+    display: flex;
+    justify-content: space-between;
+}
