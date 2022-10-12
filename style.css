@@ -18,6 +18,30 @@ img {
     background-color: #0062ffbb;
 }
 
+.flex--jc {
+    display: flex;
+    justify-content: center;
+}
+
+.flex--sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linea {
+    margin: 60px 0;
+    border: lightgray 1px solid;
+    width: 120px;
+}
+
+.blue {
+    color: #0061ff;
+}
+
+i {
+    margin-right: 10px;
+}
+
 /* head  */
 
 .tophead {
@@ -27,8 +51,6 @@ img {
     position: fixed;
     top: 0;
     z-index: 999;
-    display: flex;
-    justify-content: space-between;
 }
 
 .tophead__container{
@@ -70,8 +92,6 @@ img {
     background-color: #b4d0e7;
     height: 820px;
     margin-top: 80px;
-    display: flex;
-    justify-content: center;
 
 }
 
@@ -124,27 +144,25 @@ img {
 /* main  */
 
 
-.midcontainer {
-    display: flex;
-    justify-content: center;
-    
+
+.mid--size{
+    min-width: 1150px;
 }
 
-.midcontainer__s1{
-    width: 1000px;
-}
-
-.midcontainer__s1 h2 {
+.checkbox {
     margin-top: 130px;
+}
+
+.checkbox h2 {  
     font-size: 40px;
 }
 
-.midcontainer__s1__plans {
+.plans {
     margin: 40px 0;
     display: flex;
 }
 
-#midcontainer__s1__checked {
+#checked {
     width: 20px;
     height: 20px;
     border: #0061ff 5px solid;
@@ -153,7 +171,7 @@ img {
     
 }
 
-.midcontainer__s1__unchecked {
+.unchecked {
     width: 20px;
     height: 20px;
     border: #a1a1a1 2px solid;
@@ -162,49 +180,42 @@ img {
     
 }
 
+.mid--size.flex--sb {
+    align-items: stretch;
+}
+
+
 .abbonamenti {
-    display: flex;
-    justify-content: center;
-}
-
-.abbonamenti__s1{
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.abbonamenti__s1__plans {
     border: 2px lightgrey solid;
-    width: 300px;
-    height: 900px;
+    width: 340px;
     
 }
 
-.abbonamenti__s1__plans__title {
-    display: flex;
-    justify-content: center;
+.abbonamenti__title {
+
     align-items: center;
     height: 40px;
     border-bottom: lightgrey 2px solid;
 }
 
-.abbonamenti__s1__plans__title i {
-    margin-right:  10px;
-}
 
 .plans__page {
-    margin: 20px 25px;
-    border-bottom: 2px lightgrey solid;
-    padding-bottom: 40px;
+    margin: 30px;
 
 }
 
-.plans__page h2,h4 {
+.promo {
+    margin: 20px 0;
+}
+
+.promo h4, .mese {
     margin-top: 20px;
 }
 
-.plans__page div {
-    margin: 20 0px;
+
+.info {
+    margin: 40px 0;
+    font-size: 17px;
 }
 
 div.info i { 
@@ -212,9 +223,11 @@ div.info i {
     margin-top: 10px;
 }
 
-.blubutton--margin {
-    margin-top: 60px;
-    margin-bottom: 20px;
+
+.prova--size {
+    padding: 12px 20px ;
+    margin: 20px ;
+    text-align: center;
 }
 
 .acquista {
@@ -222,17 +235,9 @@ div.info i {
     text-decoration: underline;
 }
 
-.spacer {
-    background-color: white;
-    height: 10px;
-    width: 196px;
-    position: relative;
-    bottom: -46px;
-    right: -44px;
-}
 
 .salienti {
-    margin: 20px 25px;
+      margin: 20px 25px 85px;
 
 }
 
@@ -241,18 +246,13 @@ div.info i {
     
 }
 
-.blue {
-    color: #0061ff;
-}
+
 
 .ufficiovendite {
-    display: flex;
-    justify-content: center;
     margin: 40px 0;
 }
 
 .ufficiovendite__cont {
-    width: 1000px;
     border: 2px lightgrey solid;
     
 
@@ -262,22 +262,21 @@ div.info i {
     margin-top: 6px;
     height: 40px;
     border-bottom: 2px lightgrey solid;
-    display: flex;
-    justify-content: center;
     align-items: center;
 
 }
 
 .contact {
-    display: flex;
-    justify-content: space-between;
     margin: 30px;
     
 }
 
-.contact__article{
-    width: 70%;
+.contact__article {
+    max-width: 68%;
+}
 
+.contact__article h3 {
+    font-size: 30px;
 }
 
 
@@ -301,7 +300,12 @@ div.info i {
 
 .margin {
     margin-top: 30px;
-    align-self:initial;
+    margin-bottom: 60px;
+}
+
+.button__ufficiovendite--size {
+    padding: 10px 50px;
+
 }
 
 
@@ -490,11 +494,7 @@ div.info i {
     margin-top: 50px;
 }
 
-.linea {
-    margin: 60px 0;
-    border: lightgray 1px solid;
-    width: 120px;
-}
+
 
 .slides__section.cent p {
     font-size: 18px;
