@@ -46,6 +46,11 @@ i {
     width: 1150px;
 }
 
+li a { text-decoration: none;
+    color: white    ;
+
+}
+
 
 
 /* head  */
@@ -710,10 +715,7 @@ div.info i {
     
 }
 
-li a { text-decoration: none;
-    color: white    ;
 
-}
 
 .nav--margin ul li a:hover {
     text-decoration: underline;
