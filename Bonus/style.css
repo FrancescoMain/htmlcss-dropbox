@@ -47,8 +47,60 @@ i {
 }
 
 
-/* head  */
 
+/* head  */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 474px;
+    top: 90px;
+  }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 247px;
+    top: 90px;
+    width: 241px;
+  }
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
 .tophead {
     height: 90px;
@@ -86,6 +138,7 @@ i {
 .blubutton {
     background-color: #0061ff;
     color: white;
+    transition: all 1s;
 } 
 
 .blubutton__login--size {
@@ -320,6 +373,7 @@ div.info i {
     border: #a1a1a1 2px solid;
     background-color: white;
     text-align: center;
+    transition: all 1s;
 }
 
 .greybutton--size {
@@ -504,6 +558,73 @@ div.info i {
     margin: 40px 0;
 }
 
+.dropdown5:hover + .dropdown-content5 {
+    display: block;
+}
+
+.dropdown-content5 {
+    display: none;
+   
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: relative;
+    bottom: 0px;
+  }
+
+.dropdown-content5 h3 {
+  color: black;
+  padding: 12px 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown4:hover + .dropdown-content4 {
+    display: block;
+}
+
+.dropdown-content4 {
+    display: none;
+   
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: relative;
+    bottom: 0px;
+  }
+
+.dropdown-content4 h3 {
+  color: black;
+  padding: 12px 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown3:hover + .dropdown-content3 {
+    display: block;
+}
+
+.dropdown-content3 {
+    display: none;
+   
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: relative;
+    bottom: 0px;
+  }
+
+.dropdown-content3 h3 {
+  color: black;
+  padding: 12px 0;
+  text-decoration: none;
+  display: block;
+}
+
+
 .prova {
     background-color: #b4d0e7;
     display: flex;
@@ -554,6 +675,7 @@ div.info i {
     border-bottom: 2px lightgray solid;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 /* footer  */
